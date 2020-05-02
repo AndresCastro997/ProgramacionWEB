@@ -1,0 +1,110 @@
+body {
+    background-color: gray;
+}
+
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: gray;
+}
+
+.contenedor {
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navegacion {
+    background-color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.navegacion a {
+    display: inline-block;
+    color: gray;
+    font-size: 20px;
+    padding-right: 5%;
+}
+
+.navegacion a:last-of-type {
+    padding-right: 0;
+}
+
+.site-footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D3D3D3;
+}
+
+.redonda {
+    border-radius: 50%;
+    border: 8px solid gray;
+}
+
+.spot1 {
+    /* border: 1px solid black;
+     */
+    padding: 20px;
+    flex-basis: calc(33.3% - 1rem);
+}
+
+.spot2 {
+    padding: 20px;
+    /* flex-basis: calc(66.6% - 1rem); */
+}
+
+.video {
+    padding: 20px;
+    width: 333px;
+    flex-basis: calc(33.3% - 1rem);
+}
+
+video {
+    width: 250px;
+}
+
+.boton:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+
+.boton {
+    text-align: center;
+    color: blue;
+    float: inherit;
+    border: solid 1px black;
+    width: 80px;
+    margin-left: 6em;
+    background-color: white;
+    transition: all .5s ease;
+}
+
+
+/* .imgtecnologia {
+    width: 33.3%;
+    height: 226px;
+}
+
+#videosophia {
+    width: 250px;
+    height: 226px;
+} */
